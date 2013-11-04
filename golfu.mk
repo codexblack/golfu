@@ -28,9 +28,10 @@ PRODUCT_PACKAGES += \
 
 # Graphics 
 PRODUCT_PACKAGES += \
+    libgenlock \
     copybit.msm7x27a \
-	gralloc.msm7x27a \
-	hwcomposer.msm7x27a \
+    gralloc.msm7x27a \
+    hwcomposer.msm7x27a \
     libtilerenderer
 
 # Audio
@@ -92,7 +93,7 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_COPY_FILES += \
     device/htc/golfu/fstab.golfu:root/fstab.golfu \
-	device/htc/golfu/prebuilt/root/init:root/init \
+    device/htc/golfu/prebuilt/root/init:root/init \
     device/htc/golfu/prebuilt/root/init.rc:root/init.rc \
     device/htc/golfu/prebuilt/root/init.golfu.rc:root/init.golfu.rc \
     device/htc/golfu/prebuilt/root/init.usb.rc:root/init.usb.rc \
